@@ -1,0 +1,5 @@
+f1 = open(r'C:\Users\55450\Desktop\OpenMe.mp3','r')
+f2 = open(r'C:\Users\55450\Desktop\OpenMe.txt','x')
+f2.write(f1.read())
+f2.close()
+f1.close()
